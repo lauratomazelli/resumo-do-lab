@@ -24,3 +24,27 @@ Além disso, temos vários benefícios na computação em nuvem. Alguns que pode
 - Disponibilidade: os serviços estão sempre online.
 
 Na microsoft Azure, podemos criar uma máquina virtual, também chamada de VM (virtual machine). Para criar, é só acessar o site do portal Azure, escolher o serviço de máquinas virtuais, escolher o sistema operacional (se é Linux ou Windows), definir o tamanho desejado da VM (quanto é necessário de memória, de CPU), fazer a definição das regras de acesso a rede e em poucos minutos, ou até segundos, aa máquina vai estar pronta. Esse processo simula um computador dentro da nuvem, pode ser usado em testes, em treinamentos etc.
+
+
+ATIVIDADE 2:
+
+TIPOS DE SERVIÇO NA NUVEM AZURE
+
+Temos 3 tipos de Serviço na Nuvem fornecidos pela Azure:
+  - IaaS: Infraestrutura como serviço.
+Nesse caso, a Microsoft oferece a infraestrutura bruta, que são os servidores, rede, armazenamento e máquinas virtuais. 
+O usuário cuida do sistema operacional, aplicativos, das configurações e dos dados. É indicado para quem quer controle técnico.
+Já a Azure cuida da manutenção da infraestrutura física e da conectividade. 
+
+  - PaaS: Plataforma como serviço.
+A Azure entrega um conjunto: infraestrutura + sistema operacional + banco de dados + ambiente de desenvolvimento. 
+O usuário cuida apenas do aplicativo e dos dados. 
+Nesse caso a Azure vai cuidar da manutenção da estrutura física, conectividade, sistema operacional etc
+
+  - SaaS: Software como serviço.
+Aqui usamos um software pronto na nuvem, sem ter que instalar nada pois é a Azure a responsável por tudo. Um exemplo é o Microsoft Teams.
+A responsabilidade do usuário é apenas usar, já a da Azure é todo o suporte e manutenção, ou seja, infraestrutura física, plataforma, aplicativo.
+
+Nos serviços de nuvem, o cliente e o provedor tem responsabilidades divididas, ou seja, compartilham a responsabilidade. Isso vai definir quem é responsável por cada ambiente da nuvem, dependendo do tipo de serviço escolhido. Em geral, a Azure cuida da segurança física, infraestrutura e plataforma, e o usuário cuida dos dados, senhas, acesso e configurações, mas isso pode variar de acordo com o tipo de nuvem escolhida. Quanto maior o serviço escolhido, maior é a responsabilidade da Azure. No modelo IaaS, o cliente tem um controle maior, mas também assume mais responsabilidades. 
+
+A nuvem é segura, desde que o usuário também cumpra sua função e proteja seus dados, identidades de acesso e siga as conformidades regulatórias.
